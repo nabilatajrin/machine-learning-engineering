@@ -13,18 +13,18 @@ This repository showcases practical ML Engineering skills — from data preproce
 |--------|-------------|
 | [`01-linear-regression`](01-linear-regression/) | **Experiment 01** — manual + sklearn linear regression |
 | [`02-decision-trees-ensemble`](02-decision-trees-ensemble/) | **Experiment 02** — decision trees & ensembles (Iris) |
+| [`03-titanic-naive-bayes`](03-titanic-naive-bayes/) | **Experiment 03** — Titanic survival with GaussianNB |
 
 ```bash
 # Experiment 01
-cd 01-linear-regression
-pip install -r requirements.txt
-python linear_regression.py
+cd 01-linear-regression && pip install -r requirements.txt && python linear_regression.py
 
 # Experiment 02
-cd ../02-decision-trees-ensemble
-pip install -r requirements.txt
-python 01_decision_tree_iris.py
-python 02_ensemble_methods_iris.py
+cd ../02-decision-trees-ensemble && pip install -r requirements.txt
+python 01_decision_tree_iris.py && python 02_ensemble_methods_iris.py
+
+# Experiment 03
+cd ../03-titanic-naive-bayes && pip install -r requirements.txt && python naive_bayes_titanic.py
 ```
 
 ## Other topics
@@ -36,8 +36,7 @@ python 02_ensemble_methods_iris.py
 
 ## Tech Stack
 - Python
-- Scikit-learn, NumPy, Matplotlib
-- XGBoost, LightGBM (where used)
+- Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn
 - MLflow, Docker, FastAPI (MLOps paths)
 
 ## Installation
