@@ -14,6 +14,7 @@ This repository showcases practical ML Engineering skills — from data preproce
 | [`01-linear-regression`](01-linear-regression/) | **Experiment 01** — manual + sklearn linear regression |
 | [`02-decision-trees-ensemble`](02-decision-trees-ensemble/) | **Experiment 02** — decision trees & ensembles (Iris) |
 | [`03-titanic-naive-bayes`](03-titanic-naive-bayes/) | **Experiment 03** — Titanic survival with GaussianNB |
+| [`07-svm-handwritten-digits`](07-svm-handwritten-digits/) | **Experiment 07** — SVM handwritten digit recognition |
 
 ```bash
 # Experiment 01
@@ -25,6 +26,9 @@ python 01_decision_tree_iris.py && python 02_ensemble_methods_iris.py
 
 # Experiment 03
 cd ../03-titanic-naive-bayes && pip install -r requirements.txt && python naive_bayes_titanic.py
+
+# Experiment 07
+cd ../07-svm-handwritten-digits && pip install -r requirements.txt && python svm_digits.py
 ```
 
 ## Other topics
